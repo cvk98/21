@@ -19,7 +19,7 @@ values = [[6, 7, 8, 9, 10, 2, 3, 4, 11],
 
 # Раздача
 def distribution(repeat):
-    for i in range(repeat):
+    for _ in range(repeat):
         c = randint(0, 3)
         s = randint(1, len(values[c])) - 1
         choice = values[c][s]
